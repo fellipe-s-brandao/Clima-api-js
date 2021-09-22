@@ -1,5 +1,7 @@
 # Clima-api-Js
 
+![animação](https://github.com/fellipe-s-brandao/Clima-api-js/blob/main/public/assets/clima.gif)
+
 ### Objetivo do projeto:
 
 - Desevolver um sistema que consuma uma API externa e devolver esses resultados.
