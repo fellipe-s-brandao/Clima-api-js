@@ -22,7 +22,6 @@ body {
 .content {
   padding: 50px;
   width: 800px;
-  height: 500px;
 
   border-radius: 25px;
   border-top: solid 2px rgba(255, 255, 255, 0.8);
@@ -92,17 +91,65 @@ body {
   border-radius: 25px;
 }
 
-.icon{
-    width: 100px;
+.icon {
+  width: 100px;
 }
 
-h2{
-    text-transform: capitalize;
+h2 {
+  text-transform: capitalize;
 }
 
-.max-min{
+.max-min {
+  margin-top: 10px;
+  padding: 30px;
+  border: solid 2px rgba(255, 255, 255, 0.8);
+  border-radius: 20px;
+}
+
+@media (max-width: 930px) {
+  .container {
+    margin-top: 20px;
+    width: 700px;
+    margin: auto;
+  }
+}
+
+@media (max-width: 724px) {
+  .container {
+    width: 500px;
+  }
+
+  .search {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .search input {
+    text-align: center;
+    margin-right: 0;
     margin-top: 10px;
-    padding: 30px;
-    border: solid 2px rgba(255, 255, 255, 0.8);
-    border-radius: 20px;
+  }
+}
+
+@media (max-width: 579px) {
+  .container {
+    width: 400px;
+  }
+
+  .content {
+    padding: 20px;
+  }
+}
+
+@media (max-width: 579px) {
+  .container {
+    width: 400px;
+  }
+}
+
+@media (max-width: 405px) {
+  .container {
+    width: 300px;
+  }
 }
