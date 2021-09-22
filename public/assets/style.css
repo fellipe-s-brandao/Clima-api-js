@@ -9,14 +9,16 @@
 }
 
 body {
-  background-image: linear-gradient(to top, #4481eb 0%, #04befe 100%);
-}
+    background: url(images/wave.svg) no-repeat fixed #04befe;
+    background-size: cover;
+  }
+  
 
 .container {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  margin-top: 100px;
 }
 
 .content {
@@ -108,9 +110,8 @@ h2 {
 
 @media (max-width: 930px) {
   .container {
-    margin-top: 20px;
     width: 700px;
-    margin: auto;
+    margin: 30px auto;
   }
 }
 
