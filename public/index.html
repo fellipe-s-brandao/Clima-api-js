@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/style.css" />
+    <title>Clima</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="content">
+        <div class="search">
+          <h1>Clima</h1>
+          <div>
+            <input id="cidade" type="text" placeholder="Proucure sua cidade" />
+            <input class="btn-search" onclick="search()" type="button" value="Pesquisar" />
+          </div>
+        </div>
+
+        <div id="weather"></div>
+      </div>
+    </div>
+
+    <script src="../src/index.js"></script>
+  </body>
+</html>

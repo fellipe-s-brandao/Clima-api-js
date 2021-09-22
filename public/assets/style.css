@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Poppins, sans-serif;
+  font-weight: 400;
+  color: #fff;
+}
+
+body {
+  background-image: linear-gradient(to top, #4481eb 0%, #04befe 100%);
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.content {
+  padding: 50px;
+  width: 800px;
+  height: 500px;
+
+  border-radius: 25px;
+  border-top: solid 2px rgba(255, 255, 255, 0.8);
+  border-left: solid 2px rgba(255, 255, 255, 0.8);
+  box-shadow: 20px 20px 20px rgba(255, 255, 255, 0.3);
+
+  text-align: center;
+}
+
+.search {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+
+  background: rgba(0, 0, 0, 0.1);
+
+  margin-bottom: 20px;
+  border-left: solid 2px rgba(255, 255, 255, 0.8);
+  border-top: solid 2px rgba(255, 255, 255, 0.8);
+  box-shadow: 10px 10px 10px rgba(255, 255, 255, 0.3);
+  border-radius: 25px;
+}
+
+.search input {
+  font-weight: 500;
+  color: #55585c;
+  padding: 7px;
+  margin-right: 10px;
+  background: #fff;
+
+  outline: none;
+  border-radius: 15px;
+  border: solid 1px rgba(255, 255, 255, 0.8);
+  box-shadow: 2px 2px 2px #4481eb;
+
+  transition: ease-in 0.3s;
+}
+
+.search input:focus {
+  box-shadow: 5px 5px 5px #4481eb;
+}
+
+.search input:hover {
+  box-shadow: 5px 5px 5px #4481eb;
+}
+
+.btn-search {
+  width: 100px;
+}
+
+.btn-search:hover {
+  background: #4481eb;
+  color: #fff;
+  border: solid 1px #4481eb;
+}
+
+#weather {
+  padding: 30px;
+
+  background: rgba(0, 0, 0, 0.1);
+
+  margin-bottom: 20px;
+  border-left: solid 2px rgba(255, 255, 255, 0.8);
+  border-top: solid 2px rgba(255, 255, 255, 0.8);
+  box-shadow: 10px 10px 10px rgba(255, 255, 255, 0.3);
+  border-radius: 25px;
+}
+
+.icon{
+    width: 100px;
+}
+
+h2{
+    text-transform: capitalize;
+}
+
+.max-min{
+    margin-top: 10px;
+    padding: 30px;
+    border: solid 2px rgba(255, 255, 255, 0.8);
+    border-radius: 20px;
+}
