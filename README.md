@@ -1,5 +1,5 @@
 # Clima-api-Js
-
+ 
 ![animação](https://github.com/fellipe-s-brandao/Clima-api-js/blob/main/public/assets/clima.gif)
 
 ### Objetivo do projeto:
@@ -10,5 +10,5 @@
 ### Tecnologias usuadas:
 
 - JavaScript
-- HTML
-- CSS
+- Html
+- Css
